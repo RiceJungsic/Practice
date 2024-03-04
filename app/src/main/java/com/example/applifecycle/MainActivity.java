@@ -23,11 +23,6 @@ public class MainActivity extends AppCompatActivity {
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
 
-        // 프래그먼트 트랜잭션을 통해 BlankFragment를 프레임 레이아웃에 추가
-//        BlankFragment blankFragment = new BlankFragment();
-//        fragmentTransaction.add(R.id.fragment_container, blankFragment);
-//        fragmentTransaction.commit(); // 트랜잭션 완료
-
         findViewById(R.id.btn_move).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
